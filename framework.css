@@ -1,0 +1,28 @@
+.nav-wrapper{
+    background-color: black;
+}
+
+#item_color{
+    background-color: rgb(253, 91, 32);
+}
+
+.weight, .centered{
+    font-weight: bold;
+}
+
+.text_color:hover{
+    color: orange;
+    background-color: black;
+}
+
+.align_center{
+    text-align: center;
+    padding: 50px;
+}
+
+.card> img{
+    width: 500px;
+}
+
+
+
