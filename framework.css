@@ -1,5 +1,10 @@
+*{
+    /* border:1px solid green; */
+}
+
 .nav-wrapper{
     background-color: black;
+    text-decoration: none;
 }
 
 #item_color{
@@ -11,7 +16,7 @@
 }
 
 .text_color:hover{
-    color: orange;
+    color: rgb(241, 98, 31);
     background-color: black;
 }
 
@@ -24,5 +29,101 @@
     width: 500px;
 }
 
+.brand-logo:hover, .material-icons:hover{
+    color: rgb(241, 89, 33);
+    text-decoration: none;
+}
 
+.form{
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 800px;
+}
 
+.label, #checkAge_btn{
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: black;
+    color: rgb(250, 108, 56);
+}
+
+.input{
+    text-align: center;
+    font-weight: bold;
+}
+
+.new_page{
+    width: 20%;
+}
+
+#link_newPage{
+    /* text-align: center; */
+    padding-left: 850px;
+    padding-top: 50px;
+    /* padding-bottom: 30px; */
+    color: red;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+#link_newPage:hover{
+    color: white;
+}
+
+.text-muted{
+    padding-left: 200px;
+}
+
+#body_newPage{
+    background-color: black;
+}
+
+.text_footer{
+    color: red;
+}
+
+#table_newPage{
+    color: rgba(247, 42, 42, 0.774);
+    /* margin-top: 20px; */
+    /* margin-bottom: 50px; */
+    width: 50%;
+    margin-left: 340px;
+    font-size: x-large;
+}
+
+.left_th{
+    width: 30%;
+    /* float: right; */
+}
+
+.right_th{
+    border: 1px solid white;
+}
+
+.align_right{
+    text-align: right;
+}
+
+.input_table{
+    color: white;
+}
+
+.sub_newPage{
+    padding-left: 870px;
+    color: rgba(247, 42, 42, 0.774);
+    font-size: x-large;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.sub_newPage:hover{
+    color: white;
+}
+
+#pic_newPage{
+    width: 100%;
+    opacity: 0.7;
+    height: 300px;
+}
